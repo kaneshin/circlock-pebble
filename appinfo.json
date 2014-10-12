@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "kaneshinth.com",
+    "longName": "Circlock",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "Circlock",
+    "uuid": "The uuid of the app.",
+    "versionCode": 1,
+    "versionLabel": "0.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
