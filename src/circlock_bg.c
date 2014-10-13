@@ -49,6 +49,9 @@ void circlock_bg_update_proc(Layer *layer, GContext *ctx)
     draw_fill_circle(ctx, center, &radius);
     draw_fill_circle(ctx, center, &radius);
     draw_fill_circle(ctx, center, &radius);
+    
+    graphics_context_set_stroke_color(ctx, CIRCLOCK_COLOR_FOREGROUND);
+    graphics_draw_line(ctx, (GPoint){10, 2 * CIRCLOCK_CLOCK_CENTER_Y}, (GPoint){bounds.size.w - 10, 2 * CIRCLOCK_CLOCK_CENTER_Y});
 }
 
 void circlock_bg_init()
